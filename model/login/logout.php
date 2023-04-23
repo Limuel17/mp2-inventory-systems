@@ -1,9 +1,16 @@
+
+
+
 <?php
-	session_start();
-	
-	unset($_SESSION['loggedIn']);
+session_start();
+
+if(isset($_POST['logout_btn']))
+{
+    session_destroy();
+    unset($_SESSION['loggedIn']);
 	unset($_SESSION['fullName']);
-	session_destroy();
-	header('Location: ../../login.php');
+    header('Location: ../../login.php');
 	exit();
+}
+
 ?>

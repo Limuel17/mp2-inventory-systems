@@ -1,0 +1,27 @@
+.navbar-nav li{
+ 
+   display: flex;
+   flex-direction: row;
+
+
+    
+}
+
+
+
+
+
+@media (min-width: 992px) {
+    .navbar-nav {
+     position: absolute;
+     margin-left: 70%;
+      
+    }
+
+    .navbar .container .navbar-brand {
+     
+     
+        margin-left: -33%;
+    }
+  }
+
