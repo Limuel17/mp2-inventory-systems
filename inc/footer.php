@@ -1,5 +1,5 @@
     <!-- Footer -->
-    <footer class="footer bg-primary">
+    <footer class="footer bg-primary min-vh-100 ">
       <div class="container">
         <p class="m-0  text-center text-white">MP2-Inventory System <?php echo date('Y'); ?></p>
       </div>

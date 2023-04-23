@@ -25,8 +25,8 @@
 
     <!-- Page Content -->
     <div class="container-fluid">
-	  <div class="row">
-		<div class="col-lg-2">
+	  <div class="row ">
+		<div class=" col-lg-2  ">
 		<h1 class="my-5"></h1>
 			
 		   <div class="nav text flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
@@ -67,10 +67,10 @@
 
 
 
-		 <div class="col-lg-10">
+		 <div class="col-lg-10 ">
 			<div class="tab-content" id="v-pills-tabContent">
 			  <div class="tab-pane fade show active" id="v-pills-item" role="tabpanel" aria-labelledby="v-pills-item-tab">
-				<div class="card card-outline-secondary my-4">
+				<div class="card card-outline-secondary  my-5">
 				  <div class="card-header">Item Details</div>
 				  <div class="card-body">
 					<ul class="nav nav-tabs" role="tablist">
@@ -182,7 +182,7 @@
 				</div>
 			  </div>
 			  <div class="tab-pane fade" id="v-pills-purchase" role="tabpanel" aria-labelledby="v-pills-purchase-tab">
-				<div class="card card-outline-secondary my-4">
+				<div class="card card-outline-secondary my-5">
 				  <div class="card-header">Purchase Details</div>
 				  <div class="card-body">
 					<div id="purchaseDetailsMessage"></div>
@@ -245,7 +245,7 @@
 			  </div>
 			  
 			  <div class="tab-pane fade" id="v-pills-vendor" role="tabpanel" aria-labelledby="v-pills-vendor-tab">
-				<div class="card card-outline-secondary my-4">
+				<div class="card card-outline-secondary my-5">
 				  <div class="card-header">Vendor Details</div>
 				  <div class="card-body">
 				  <!-- Div to show the ajax message from validations/db submission -->
@@ -312,7 +312,7 @@
 			  </div>
 			    
 			  <div class="tab-pane fade" id="v-pills-sale" role="tabpanel" aria-labelledby="v-pills-sale-tab">
-				<div class="card card-outline-secondary my-4">
+				<div class="card card-outline-secondary my-5">
 				  <div class="card-header">Sale Details</div>
 				  <div class="card-body">
 					<div id="saleDetailsMessage"></div>
@@ -388,7 +388,7 @@
 				</div>
 			  </div>
 			  <div class="tab-pane fade" id="v-pills-customer" role="tabpanel" aria-labelledby="v-pills-customer-tab">
-				<div class="card card-outline-secondary my-4">
+				<div class="card card-outline-secondary my-5">
 				  <div class="card-header">Customer </div>
 				  <div class="card-body">
 				  <!-- Div to show the ajax message from validations/db submission -->
@@ -455,7 +455,7 @@
 			  </div>
 			  
 			  <div class="tab-pane fade" id="v-pills-search" role="tabpanel" aria-labelledby="v-pills-search-tab">
-				<div class="card card-outline-secondary my-4">
+				<div class="card card-outline-secondary my-5">
 				  <div class="card-header">Search Inventory<button id="searchTablesRefresh" name="searchTablesRefresh" class="btn btn-warning float-right btn-sm">Refresh</button></div>
 				  <div class="card-body">	
 					
